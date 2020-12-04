@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #fff;
+  font-family: "Luna";
+}
+.parallax1,.parallax2,.parallax3 {
+
+   position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1
+{
+	background-image: url('images/design.jpg');
+	/* The image used */
+
+ 	 /* Set a specific height */
+  	min-height: 500px; 
+}
+.parallax2{
+	background-image: url('images/travel.jpg');
+	min-height: 500px; 
+}
+.parallax3{
+	background-image: url('images/color.jpg');
+	min-height: 500px;
+}
+.details
+{
+	height:1000px;
+	background-color:#778;
+	font-size:36px
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
